@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-franclean86
+  host: IoT-franclean86
+  disk_quota: 1024M
+  services:
+  - IoT-franclean86-cloudantNoSQLDB
+  - IoT-franclean86-iotf-service
